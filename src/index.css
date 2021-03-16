@@ -4,6 +4,7 @@ nav {
     display: flex;
     background-color: beige;
     justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 nav .logo img {
@@ -25,4 +26,35 @@ nav ul li {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+/* product style */
+
+#prod-container .container {
+    width: 300px;
+    border: 1px solid grey;
+    box-shadow: 0 7px 10px 0 grey;
+    margin: 5px;
+    /* border-radius: 50px; */
+}
+
+#prod-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.products img {
+    margin: 5px;
+}
+
+.prod-text h4 {
+    display: flex;
+    justify-content: center;
+}
+
+.prod-text p {
+    display: flex;
+    justify-content: center;
 }
