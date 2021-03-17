@@ -21,7 +21,7 @@ const About = () => {
                     services in Ghana and beyond.
                 </p>
                 <h3>OUR MOTTO</h3>
-                <p>
+                <p style={{boxShadow:"0 7px 7px 2px black"}}>
                     <blockquote>“Your needs Our Priorities”</blockquote>
                 </p>
                 <h3>WHY ENGAGE US</h3>
