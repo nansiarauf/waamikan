@@ -1,7 +1,7 @@
 const Products = () => {
     return (
         <>
-        <div style={{display:"flex", justifyContent:"center",backgroundColor:"gray"}}>
+        <div style={{display:"flex", justifyContent:"center",backgroundColor:"gray",margin:"5px"}}>
             <h3 style={{textAlign:"center"}}>Take a look at our medical supplies and 
                 contact us if you find what you are looking for, or better still 
                 contact us to get quotations and more information.
