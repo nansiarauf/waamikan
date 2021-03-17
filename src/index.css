@@ -107,3 +107,46 @@ blockquote {
     justify-content: center;
     align-items: center;
 }
+
+
+/* contact style */
+
+#contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    height: 60vh;
+}
+
+.form-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 50%;
+}
+
+.form-container input {
+    width: 300px;
+    height: 20px;
+    margin: 20px 0 0 5px;
+}
+
+.form-container textarea {
+    margin: 5px;
+    width: 300px;
+    height: 200px;
+}
+
+.map {
+    margin: 10px;
+}
+
+iframe {
+    width: 900px;
+    height: 350px;
+    margin: 5px;
+}
+
+#contact .class iframe {
+    width: 700px;
+    height: auto;
+}
